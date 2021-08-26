@@ -76,8 +76,9 @@ h2,h3 {
 /* corrosel */
 .imagem-carrosel{
     object-fit: cover;
-    max-height: 600px;
+    max-height: 550px;
     min-height: 300px;
+    
 }
 /*  */
 
