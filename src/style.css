@@ -1,0 +1,133 @@
+
+@font-face {
+    font-family: 'Sunflower';
+    src: url(fonts/Sunflower.otf) format('opentype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Autography';
+    src: url(fonts/Autography.otf) format('opentype');
+}
+
+:root{
+    /* cores  SENSAÇÃO CROMÁTICA   */
+    --cor0:#01aad1;
+    --cor1:#0673a1;
+    --cor2:#024d79;
+    --cor3:#626262;
+
+    /* cores Cores secundárias */
+    --cor4:#e8b9a9 ;
+    --cor5:#eb9e82;
+    --cor6:#d48b7a;
+    --cor7:#1b869a;
+    --cor8:#046077;
+    --cor9:#003a46;
+
+    /* fontes */
+    --fonte-padrao: 'Oswald', sans-serif;
+    --fonte-destaque:'Sunflower', cursive;
+    --fonte-destaque2: 'Autography',cursive;
+
+}
+
+/* fontes */
+*{
+     font-family: var(--fonte-padrao);
+}
+.fonte-titulo{
+    font-family: var(--fonte-destaque);
+}
+.fonte-sub{
+    font-family:var(--fonte-destaque2) ;
+}
+h2,h3 {
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+}
+.cor-especial{
+    color:var(--cor2);
+}
+
+/*   */
+
+/* cores da pagina */
+.cor-titulo,.cor-tratamento,.cor-depoimento {
+    background-color: #F5F5F5;
+}
+.cor-equipe{
+    background-color:#F5F5F5;
+}
+.final{
+    background-image: linear-gradient(to bottom, #f5f5f5,#024d79);
+}
+
+/* */
+
+/* nav */
+.texto-cor-especial {
+    color: var(--cor2) !important;
+}
+.logo{
+    width: 190px;
+}
+/*  */
+
+/* corrosel */
+.imagem-carrosel{
+    object-fit: cover;
+    max-height: 600px;
+    min-height: 300px;
+}
+/*  */
+
+/* cards */
+.card-largura{
+    max-width: 18rem;
+}
+
+.card-posicao-imagem{
+    object-fit: cover;
+    height: 200px;
+}
+.cor-cards{
+    background-color:#FFFFFF;
+    
+    color: var(--cor9);
+}
+
+.botao-cor-especial{
+    background-color: var(--cor0);
+    color: white;
+}
+
+/*Equipe  */
+
+
+.img-equipe{
+    max-width: 700px;
+}
+
+
+/* mapa */
+.mapa{
+    max-width: 650px;
+    max-height: 450px;
+}
+
+.hora-tamanho{
+    max-width: 400px;
+}
+
+/* redes sociais*/
+.icon{
+    width: 48px;
+    height: 48px;
+
+    padding-right: 8px;
+}
+/*  */
+
+.cor-footer{
+    background-color: #024d79;
+}
