@@ -77,13 +77,13 @@ h2,h3 {
     
 .logo{
     width: 200px;
-    height: 100px;
+    height: 70px;
 }
 /*  */
 
 /* corrosel */
 .imagem-carrosel{
-    object-fit: cover;
+    object-fit: fill;
     max-height: 550px;
     min-height: 300px;  
     
