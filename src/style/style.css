@@ -1,12 +1,11 @@
-
 @font-face {
     font-family: 'Sunflower';
-    src: url(fonts/Sunflower.otf) format('opentype');
+    src: url(../../src/fonts/Sunflower.otf) format('opentype');
     font-weight: normal;
 }
 @font-face {
     font-family: 'Autography';
-    src: url(fonts/Autography.otf) format('opentype');
+    src: url(../fonts/Autography.otf) format('opentype');
 }
 
 :root{
