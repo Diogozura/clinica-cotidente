@@ -67,8 +67,18 @@ h2,h3 {
 .texto-cor-especial {
     color: var(--cor2) !important;
 }
+
+@media only screen and  (max-width:500px) { 
+    img.logo{
+        width: 161px;
+        height: 77px;
+    }
+}
+    
 .logo{
     width: 190px;
+    height: 90px;
+    
 }
 /*  */
 
