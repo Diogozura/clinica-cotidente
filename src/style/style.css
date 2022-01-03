@@ -68,17 +68,16 @@ h2,h3 {
     color: var(--cor2) !important;
 }
 
-@media only screen and  (max-width:500px) { 
+@media only screen and  (max-width:650px) { 
     img.logo{
-        width: 161px;
-        height: 77px;
+        width: 160px;
+        height: 80px;
     }
 }
     
 .logo{
-    width: 190px;
-    height: 90px;
-    
+    width: 200px;
+    height: 100px;
 }
 /*  */
 
