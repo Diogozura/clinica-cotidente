@@ -70,21 +70,23 @@ h2,h3 {
 
 @media only screen and  (max-width:650px) { 
     img.logo{
-        width: 160px;
-        height: 80px;
+        
+        width: 125px;
+        height: 50px;
     }
 }
     
 .logo{
     width: 200px;
     height: 70px;
+    
 }
 /*  */
 
 /* corrosel */
 .imagem-carrosel{
     object-fit: cover;
-    max-height: 550px;
+    max-height: 600px;
     min-height: 300px;  
     
 }
