@@ -1,0 +1,11 @@
+.video-insta {
+    max-width: 390px;
+    color: #5c4c40;
+    text-align: center;
+    /* border-left: 3px solid #897860; */
+    /* padding-left: 5px; */
+    margin: 0 auto;
+    background: rgb(247, 247, 247);
+    width: auto;
+    display: table;
+}
