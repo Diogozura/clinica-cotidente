@@ -3,6 +3,27 @@
     margin: 0;
     padding: 0;
   }
+  :root{
+    /* cores  SENSAÇÃO CROMÁTICA   */
+    --cor0:#01aad1;
+    --cor1:#0673a1;
+    --cor2:#024d79;
+    --cor3:#626262;
+
+    /* cores Cores secundárias */
+    --cor4:#e8b9a9 ;
+    --cor5:#eb9e82;
+    --cor6:#d48b7a;
+    --cor7:#1b869a;
+    --cor8:#046077;
+    --cor9:#003a46;
+
+    /* fontes */
+    --fonte-padrao: 'Oswald', sans-serif;
+    --fonte-destaque:'Sunflower', cursive;
+    --fonte-destaque2: 'Autography',cursive;
+
+}
   
   html {
     font-family: system-ui;
@@ -27,7 +48,8 @@
     overflow: hidden;
     padding: 20px;
     margin-top: 2em;
-    background: rgba(0,0,0,.1)
+    background: #01abd177;
+    border-radius: 10px;
   }
   
   .card-carousel {
@@ -126,7 +148,7 @@
     margin-bottom: 2em;
     border-radius: 100%;
     padding: 1em;
-    -webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0px 0px 17px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
   box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
     
