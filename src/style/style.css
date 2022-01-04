@@ -152,7 +152,3 @@ h2 {
     display: inline-block;
     transform: translateX(calc((100vw - 100%) / 2))
   }
-  
-  h2 a {
-    color: #f5b916
-  }
