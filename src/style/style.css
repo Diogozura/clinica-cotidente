@@ -77,15 +77,16 @@ h2,h3 {
 }
     
 .logo{
-    width: 200px;
-    height: 70px;
+    width: 150px;
+    height: 60px;
     
 }
 /*  */
 
 /* corrosel */
 .imagem-carrosel{
-    object-fit: cover;
+    object-fit: fill;
+    
     max-height: 600px;
     min-height: 300px;  
     
@@ -140,3 +141,18 @@ h2,h3 {
 .cor-footer{
     background-color: #024d79;
 }
+
+h2 {
+    padding: 1em;
+    margin-top: 1em;
+    background: #01aad1;
+    text-align: center;
+    color: white;
+    border-radius: .2em;
+    display: inline-block;
+    transform: translateX(calc((100vw - 100%) / 2))
+  }
+  
+  h2 a {
+    color: #f5b916
+  }
