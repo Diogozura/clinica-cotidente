@@ -48,7 +48,6 @@
     overflow: hidden;
     padding: 20px;
     margin-top: 2em;
-    background: #01abd177;
     border-radius: 10px;
   }
   
@@ -141,8 +140,8 @@
   
   
   .image-container {
-    width: 8em;
-    height: 8em;
+    width: 9em;
+    height: 9em;
     position: relative;
     background-size: cover;
     margin-bottom: 2em;
@@ -157,8 +156,8 @@
   .image-container::after {
     content: "";
     display: block;
-    width: 120%;
-    height: 120%;
+    width: 123%;
+    height: 121%;
     border: solid 3px rgba(0,0,0,.1);
     border-radius: 100%;
     position: absolute;
