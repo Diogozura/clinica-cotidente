@@ -33,6 +33,10 @@
 /* fontes */
 *{
      font-family: var(--fonte-padrao);
+     
+}
+body{
+    background-color: #F5F5F5;
 }
 .fonte-titulo{
     font-family: var(--fonte-destaque);
