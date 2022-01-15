@@ -74,25 +74,48 @@ h2,h3 {
 
 @media only screen and  (max-width:650px) { 
     img.logo{
-        
         width: 95px;
         height: 45px;
+    }
+    .imagem-carrosel-sala1{
+        object-fit: cover;
+        object-position: 0 50px;
+        min-height: 300px;  
+        
+    }
+    .imagem-carrosel{
+        object-fit: cover;
+        min-height: 300px;  
+        
+    }
+    .img-faxada{
+        width: 320px;
+    }
+    .mapa{
+        width: 340px;
+        height: 300px;
+    }
+    .local-link{
+        margin-top: 10px;
+        padding: 5px;
     }
 }
     
 .logo{
-    width: 170px;
-    height: 70px;
+    width: 150px;
+    height: 60px;
     
+}
+.icons-link{
+    width: 24px;
+    height: 24px;
 }
 /*  */
 
 /* corrosel */
 .imagem-carrosel{
     object-fit: fill;
-    
     max-height: 600px;
-    min-height: 300px;  
     
 }
 /*  */
@@ -123,9 +146,18 @@ h2,h3 {
 .img-equipe{
     max-width: 700px;
 }
-
-
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 /* mapa */
+.maps{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 .mapa{
     max-width: 650px;
     max-height: 450px;
@@ -133,6 +165,11 @@ h2,h3 {
 
 .hora-tamanho{
     max-width: 400px;
+}
+img.img-faxada{
+    max-width: 500px;
+    margin-top: 50px;
+    border-radius: 10px;
 }
 
 /* redes sociais*/
@@ -149,9 +186,20 @@ h2,h3 {
 h2 {
     padding: 1em;
     margin-top: 1em;
-    background: #01aad1;
     text-align: center;
     color: white;
+    border-radius: .2em;
+    display: inline-block;
+    transform: translateX(calc((100vw - 100%) / 2))
+  }
+  h3.depoimentos {
+    padding: 1em;
+    margin-top: 1em;
+    font-family: var(--fonte-padrao);
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: var(--cor1);
     border-radius: .2em;
     display: inline-block;
     transform: translateX(calc((100vw - 100%) / 2))
