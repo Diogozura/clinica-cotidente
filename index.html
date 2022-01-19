@@ -22,7 +22,7 @@
   <meta http-equiv="X-UA-Compatible" content="htts://cotidente.com.br">
   <meta name="author" content="Diogo Zura">
   <meta name="creator" content="Diogo Zura">
-  
+
 
   <meta property="src/img/LOGO Cotidente.png">
 
@@ -106,14 +106,13 @@
           aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
           aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-          aria-label="Slide 4">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4">
         </button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
           aria-label="Slide 5"></button>
         </button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-        aria-label="Slide 6"></button>
-      </button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
-      aria-label="Slide 7"></button>
+          aria-label="Slide 6"></button>
+        </button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+          aria-label="Slide 7"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="3000">
@@ -127,21 +126,22 @@
             alt="consultório dentário da Cotidente">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <img src="src/img/sala2.webp" class="d-block w-100 imagem-carrosel "
-            alt="sala de espera da Cotidente-cotia ">
-        </div> <div class="carousel-item" data-bs-interval="3000">
+          <img src="src/img/sala2.webp" class="d-block w-100 imagem-carrosel " alt="sala de espera da Cotidente-cotia ">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
           <img src="src/img/consultorio2.webp" class="d-block w-100 imagem-carrosel "
             alt="sala de espera da Cotidente-cotia ">
-        </div>   
-       </div> <div class="carousel-item" data-bs-interval="3000">
-          <img src="src/img/salaDeEspera.webp" class="d-block w-100 imagem-carrosel "
-            alt="sala de espera da Cotidente-cotia ">
-        </div>   
-       </div> 
-       <div class="carousel-item" data-bs-interval="3000">
-          <img src="src/img/consultorio3.webp" class="d-block w-100 imagem-carrosel "
-            alt="sala de espera da Cotidente-cotia ">
         </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="src/img/salaDeEspera.webp" class="d-block w-100 imagem-carrosel "
+          alt="sala de espera da Cotidente-cotia ">
+      </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="src/img/consultorio3.webp" class="d-block w-100 imagem-carrosel "
+          alt="sala de espera da Cotidente-cotia ">
+      </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
         data-bs-slide="prev">
@@ -164,7 +164,7 @@
 
 
 
-
+  
 
     <!-- Os tipos de Tratamentos -->
     <div class="container">
@@ -172,6 +172,7 @@
         <div class="card" id="1">
           <div class="image-container"></div>
           <h3>Implantes sendo unitário</h3>
+         
         </div>
         <div class="card" id="2">
           <div class="image-container"></div>
@@ -180,7 +181,6 @@
         <div class="card" id="3">
           <div class="image-container"></div>
           <h3>barra clip</h3>
-          >
         </div>
         <div class="card" id="4">
           <div class="image-container"></div>
@@ -194,7 +194,9 @@
         <div class="card" id="6">
           <div class="image-container"></div>
           <h3>Endodontia em sessão única</h3>
-
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            saiba mais
+          </button>
         </div>
         <div class="card" id="7">
           <div class="image-container"></div>
@@ -221,6 +223,24 @@
       <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
     </div>
 
+    <!-- o que é  -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Understood</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <aside class="video-insta">
 
       <blockquote class="instagram-media"
@@ -460,6 +480,7 @@
   <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
 
   <script src="src/js/tratamentos.js"></script>
+  <script src="src/js/popover.js"></script>
 </body>
 
 </html>
