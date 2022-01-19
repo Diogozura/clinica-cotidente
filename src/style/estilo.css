@@ -32,10 +32,12 @@
 
 /* fontes */
 *{
+    
      font-family: var(--fonte-padrao);
      
 }
 body{
+    margin: 0;
     background-color: #F5F5F5;
 }
 .fonte-titulo{
@@ -102,11 +104,13 @@ h2,h3 {
 }
     
 .logo{
-    width: 160px;
-    height: 70px;
+    width: 130px;
    
+    border-radius: 20px;
+    margin: 0;
     
 }
+
 .icons-link{
     width: 24px;
     height: 24px;
@@ -115,7 +119,10 @@ h2,h3 {
 
 /* corrosel */
 .imagem-carrosel{
-    object-fit: fill;
+    background-image: linear-gradient(to bottom ,#FFFF , #F5F5F5 );
+    margin-top: 50px;
+    object-position: 50% 10px;
+    object-fit: contain;
     max-height: 600px;
     
 }
