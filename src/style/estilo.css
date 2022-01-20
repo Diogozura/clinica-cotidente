@@ -76,8 +76,8 @@ h2,h3 {
 
 @media only screen and  (max-width:650px) { 
     img.logo{
-        width: 95px;
-        height: 45px;
+        width: 80px;
+        height: 55px;
     }
     .imagem-carrosel-sala1{
         object-fit: cover;
