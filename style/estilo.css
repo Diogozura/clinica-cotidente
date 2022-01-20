@@ -8,6 +8,8 @@
     src: url(../src/fonts/Autography.otf) format('opentype');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=The+Nautigal&display=swap');
+
 :root{
     /* cores  SENSAÇÃO CROMÁTICA   */
     --cor0:#01aad1;
@@ -25,8 +27,8 @@
 
     /* fontes */
     --fonte-padrao: 'Oswald', sans-serif;
-    --fonte-destaque:'Sunflower', cursive;
-    --fonte-destaque2: 'Autography',cursive;
+    --fonte-destaque:'Sunflower','Playfair Display', cursive;
+    --fonte-destaque2: 'Autography', 'The Nautigal', cursive;
 
 }
 
