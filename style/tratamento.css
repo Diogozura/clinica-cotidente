@@ -103,37 +103,39 @@
   
   
   .card:nth-of-type(1) .image-container {
-      background-image: url("https://images.pexels.com/photos/4687905/pexels-photo-4687905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+      background-image: url("/src/img/implanteunitario.webp");
   }
    
   .card:nth-of-type(2) .image-container {
-    background-image: url("https://images.pexels.com/photos/6812500/pexels-photo-6812500.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    background-image: url("/src/img/protocolowebp.webp")
   }
   
   .card:nth-of-type(3) .image-container {
-    background-image: url("https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
+    background-image: url("/src/img/barraclip.webp")
   }
   .card:nth-of-type(4) .image-container {
-    background-image: url("https://images.pexels.com/photos/6529056/pexels-photo-6529056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
-
+    background-image: url("/src/img/aparelho.webp")
   }
   .card:nth-of-type(5) .image-container {
     background-image: url("https://odontovitae.com.br/wp-content/uploads/2021/04/invisalign.jpg")
   }
   .card:nth-of-type(6) .image-container {
-    background-image: url("https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg")
+    background-image: url("/src/img/tratamento.webp")
   }
   .card:nth-of-type(7) .image-container {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-P3S9MBnAOIN32Fg-qJ-1bfsZYqitI6bbdQ&usqp=CAU")
   }
   .card:nth-of-type(8) .image-container {
-    background-image: url("https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg")
+    background-image: url("/src/img/preenchimentolabial.webp")
   }
   .card:nth-of-type(9) .image-container {
-    background-image: url("https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg")
+    background-image: url("/src/img/lentes_de_contato_dental.webp")
   }
   .card:nth-of-type(10) .image-container {
-    background-image: url("https://www.bucobarra.com.br/wp-content/uploads/2014/11/dente-do-siso.jpg  ")
+    background-image: url("/src/img/dente-do-siso.webp")
+  }
+  .card:nth-of-type(11) .image-container {
+    background-image: url("/src/img/aparelho.webp")
   }
   
   
