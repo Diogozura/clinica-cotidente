@@ -120,7 +120,7 @@
     background-image: url("https://odontovitae.com.br/wp-content/uploads/2021/04/invisalign.jpg")
   }
   .card:nth-of-type(6) .image-container {
-    background-image: url("src/img/tratamento.webp")
+    background-image: url("/src/img/tratamento.webp")
   }
   .card:nth-of-type(7) .image-container {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-P3S9MBnAOIN32Fg-qJ-1bfsZYqitI6bbdQ&usqp=CAU")
