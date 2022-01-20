@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Sunflower';
-    src: url(src/fonts/Sunflower.otf) format('opentype');
+    src: url(../src/fonts/Sunflower.otf) format('opentype');
     font-weight: normal;
 }
 @font-face {
