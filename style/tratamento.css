@@ -107,11 +107,11 @@
   }
    
   .card:nth-of-type(2) .image-container {
-    background-image: url("/src/img/protocolowebp.webp")
+    background-image: url("../src/img/protocolowebp.webp")
   }
   
   .card:nth-of-type(3) .image-container {
-    background-image: url("/src/img/barraclip.webp")
+    background-image: url("../src/img/barraclip.webp")
   }
   .card:nth-of-type(4) .image-container {
     background-image: url("../src/img/aparelho.webp")
@@ -126,16 +126,16 @@
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-P3S9MBnAOIN32Fg-qJ-1bfsZYqitI6bbdQ&usqp=CAU")
   }
   .card:nth-of-type(8) .image-container {
-    background-image: url("/src/img/preenchimentolabial.webp")
+    background-image: url("../src/img/preenchimentolabial.webp")
   }
   .card:nth-of-type(9) .image-container {
-    background-image: url("/src/img/lentes_de_contato_dental.webp")
+    background-image: url("../src/img/lentes_de_contato_dental.webp")
   }
   .card:nth-of-type(10) .image-container {
-    background-image: url("/src/img/dente-do-siso.webp")
+    background-image: url("../src/img/dente-do-siso.webp")
   }
   .card:nth-of-type(11) .image-container {
-    background-image: url("/src/img/aparelho.webp")
+    background-image: url("../src/img/aparelho.webp")
   }
   
   
