@@ -40,7 +40,7 @@ body{
     margin: 0;
     background-color: #F5F5F5;
 }
-.fonte-titulo{
+h1.fonte-titulo{
     font-family: var(--fonte-destaque);
 }
 .fonte-sub{
