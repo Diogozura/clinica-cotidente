@@ -214,6 +214,17 @@ h2 {
     display: inline-block;
     transform: translateX(calc((100vw - 100%) / 2))
   }
+  h3.tratamentos{
+    color: #056892;
+  }
   .telefone{
       margin: 10px;
   }
+.botao{
+    color: whitesmoke;
+    background-color: #01aad1;
+}
+.botao:hover{
+    color: whitesmoke;
+    background-color: #008faf;
+}

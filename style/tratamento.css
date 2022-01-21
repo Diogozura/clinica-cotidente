@@ -75,7 +75,7 @@
   }
   
   .card-carousel .card {
-    background: rgb(155, 235, 253);
+    background: #ABE3FF;
     width: var(--card-width);
     max-width: var(--card-max-width);
     text-align: center;
