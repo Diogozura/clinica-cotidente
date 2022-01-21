@@ -169,16 +169,16 @@ a:hover{
     flex-wrap: wrap;
 }
 .mapa{
-    max-width: 650px;
-    max-height: 450px;
+    max-width: 550px;
+    max-height: 400px;
 }
 
 .hora-tamanho{
     max-width: 400px;
 }
 img.img-faxada{
-    max-width: 500px;
-    margin-top: 50px;
+    max-width: 650px;
+    max-height: 450px;
     border-radius: 10px;
 }
 
@@ -213,4 +213,7 @@ h2 {
     border-radius: .2em;
     display: inline-block;
     transform: translateX(calc((100vw - 100%) / 2))
+  }
+  .telefone{
+      margin: 10px;
   }
