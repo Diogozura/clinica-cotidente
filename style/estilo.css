@@ -42,6 +42,10 @@ body{
     margin: 0;
     background-color: #F5F5F5;
 }
+
+.colors-nav{
+    background-color: #d48b7a;
+}
 h1.fonte-titulo{
     font-family: var(--fonte-destaque);
 }
@@ -106,7 +110,7 @@ h2,h3 {
 }
     
 .logo{
-    width: 130px;
+    width:200px;
    
     border-radius: 20px;
     margin: 0;
