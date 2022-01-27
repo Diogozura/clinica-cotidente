@@ -44,9 +44,16 @@
   <!-- bootstrap 4.6 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="style/video.css">
+
+  <link rel="stylesheet" href="style/nav.css">
+  <link rel="stylesheet" href="style/banner.css">
+  <link rel="stylesheet" href="style/clinica.css">
+  <link rel="stylesheet" href="style/local.css">
   <link rel="stylesheet" href="style/estilo.css">
-  <link rel="stylesheet" href="style/estilo2.css">
+  <link rel="stylesheet" href="style/media.css">
+  <link rel="stylesheet" href="style/footer.css">
+  <link rel="stylesheet" href="style/video.css">
+
   <link rel="stylesheet" href="style/tratamento.css">
 
   <title>Clínica Odontologia Cotidente</title>
@@ -60,7 +67,7 @@
     <nav class="navbar navbar-expand-lg fixed-top p-0 navbar-light bg-white">
 
       <!-- logo da Cotidente -->
-      <img src="img/LOGO Cotidente_Dra. Gesiely Espalva.webp" width="200" class="d-inline-block align-top" alt="">
+      <img src="img/LOGO Cotidente_Dra. Gesiely Espalva.webp" class="logo" class="d-inline-block align-top" alt="">
 
       <!-- nav bar burger -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -75,7 +82,7 @@
           <!-- Agendar horário -->
           <li class="nav-item text-center">
             <a class="nav-link  active" href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998873053"><img
-                class="icons-link" src="https://img.icons8.com/color/50/000000/property-time.png"/> Agendar
+                class="icons-link" src="https://img.icons8.com/color/50/000000/property-time.png" /> Agendar
               Horário </a>
           </li>
 
@@ -98,10 +105,10 @@
         </ul>
       </div>
     </nav>
-    
+
   </header>
 
-  
+
   <main>
     <!-- banner -->
     <div class="banner">
@@ -123,389 +130,383 @@
     </div>
 
 
-  <!-- Os tipos de Tratamentos -->
-  <h2 class="text-center trata ">Tratamentos oferecidos</h2>
-  <div class="container">
-    <div class="card-carousel">
-      <div class="card" id="1">
-        <div><img class="image-container" src="img/implante.webp" alt="Implantes unitário Cotidente"></div>
-        <h3 class="tratamentos">Implantes</h3>
-        <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Implantessendounitário">
-          saiba mais
-        </button>
-      </div>
+    <!-- Os tipos de Tratamentos -->
+    <h2 class="text-center trata ">Tratamentos oferecidos</h2>
+    <div class="container">
+      <div class="card-carousel">
+        <div class="card" id="1">
+          <div><img class="image-container" src="img/implante.webp" alt="Implantes unitário Cotidente"></div>
+          <h3 class="tratamentos">Implantes</h3>
+          <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Implantessendounitário">
+            saiba mais
+          </button>
+        </div>
 
-      <div class="card" id="2">
-        <div><img class="image-container" src="img/protocolo.webp" alt="Prótese protocolo Cotidente"></div>
-        <h3 class="tratamentos">Prótese protocolo</h3>
-        <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#protocolo">
-          Saiba mais
-        </button>
-      </div>
+        <div class="card" id="2">
+          <div><img class="image-container" src="img/protocolo.webp" alt="Prótese protocolo Cotidente"></div>
+          <h3 class="tratamentos">Prótese protocolo</h3>
+          <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#protocolo">
+            Saiba mais
+          </button>
+        </div>
 
-      <div class="card" id="3">
-        <div><img class="image-container" src="img/overdenture.webp" alt="Prótese overdenture Cotidente"></div>
-        <h3 class="tratamentos">Prótese overdenture</h3>
-        <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#clip">
-          saiba mais
-        </button>
-      </div>
+        <div class="card" id="3">
+          <div><img class="image-container" src="img/overdenture.webp" alt="Prótese overdenture Cotidente"></div>
+          <h3 class="tratamentos">Prótese overdenture</h3>
+          <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#clip">
+            saiba mais
+          </button>
+        </div>
 
-      <div class="card" id="4">
-        <div><img class="image-container" src="img/aparelho.webp" alt="Aparelhos fixos Cotidente"></div>
-        <h3 class="tratamentos">Aparelhos fixos, removíveis e Invisaling</h3>
-        <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Ortodontia">
-          saiba mais
-        </button>
-      </div>
+        <div class="card" id="4">
+          <div><img class="image-container" src="img/aparelho.webp" alt="Aparelhos fixos Cotidente"></div>
+          <h3 class="tratamentos">Aparelhos fixos, removíveis e Invisaling</h3>
+          <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Ortodontia">
+            saiba mais
+          </button>
+        </div>
 
-      <div class="card" id="">
-        <div><img class="image-container" src="img/clareamento.webp" alt="Clareamento dental Cotidente"></div>
-        <h3 class="tratamentos">Clareamento dental</h3>
-        <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Endodontia">
-          saiba mais
-        </button>
-      </div>
+        <div class="card" id="">
+          <div><img class="image-container" src="img/clareamento.webp" alt="Clareamento dental Cotidente"></div>
+          <h3 class="tratamentos">Clareamento dental</h3>
+          <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Endodontia">
+            saiba mais
+          </button>
+        </div>
 
-      <div class="card" id="6">
-        <div><img class="image-container" src="img/tratamentocanal.webp"
-            alt="Tratamento endodôntico (canal) em sessão única Cotidente"></div>
-        <h3 class="tratamentos">Tratamento endodôntico (canal) em sessão única</h3>
-        <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Endodontia">
-          saiba mais
-        </button>
-      </div>
+        <div class="card" id="6">
+          <div><img class="image-container" src="img/tratamentocanal.webp"
+              alt="Tratamento endodôntico (canal) em sessão única Cotidente"></div>
+          <h3 class="tratamentos">Tratamento endodôntico (canal) em sessão única</h3>
+          <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Endodontia">
+            saiba mais
+          </button>
+        </div>
 
-      <div class="card" id="7">
-        <div><img class="image-container" src="img/botox.webp" alt="Botox Cotidente"></div>
-        <h3 class="tratamentos">Harmonização facial</h3>
-        <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Botox">
-          saiba mais
-        </button>
-      </div>
+        <div class="card" id="7">
+          <div><img class="image-container" src="img/botox.webp" alt="Botox Cotidente"></div>
+          <h3 class="tratamentos">Harmonização facial</h3>
+          <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Botox">
+            saiba mais
+          </button>
+        </div>
 
-      <div class="card" id="8">
-        <div><img class="image-container" src="img/laserterapia.webp" alt="laserterapia Cotidente"></div>
-        <h3 class="tratamentos">Laser terapia em odontologia</h3>
-        <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#preenchimentos">
-          saiba mais
-        </button>
-      </div>
+        <div class="card" id="8">
+          <div><img class="image-container" src="img/laserterapia.webp" alt="laserterapia Cotidente"></div>
+          <h3 class="tratamentos">Laser terapia em odontologia</h3>
+          <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#preenchimentos">
+            saiba mais
+          </button>
+        </div>
 
-      <div class="card" id="9">
-        <div><img class="image-container" src="img/lentescontato.webp" alt="lentes de contato Cotidente"></div>
-        <h3 class="tratamentos">lentes de contato</h3>
-        <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#contato">
-          saiba mais
-        </button>
-      </div>
-      <div class="card" id="10">
-        <div><img class="image-container" src="img/siso.webp" alt="Cirurgia de siso Cotidente"></div>
-        <h3 class="tratamentos">Cirurgia de sisos</h3>
-        <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#siso">
-          saiba mais
-        </button>
-      </div>
-      <div class="card" id="5">
-        <div><img class="image-container" src="img/clareamento.webp" alt="Clareamento dental Cotidente"></div>
-        <h3 class="tratamentos">Clareamento dental</h3>
-        <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#invisalign">
-          saiba mais
-        </button>
-      </div>
-      <div class="card" id="11">
-        <div><img class="image-container" src="img/raiox.webp" alt="RaioX panorâmico Cotidente"></div>
-        <h3 class="tratamentos">Raio x panorâmico</h3>
-        <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Ortodontia">
-          saiba mais
-        </button>
-      </div>
-      <div class="card" id="12">
-        <div><img class="image-container" src="img/dentadura.webp"
-            alt="Prótese removível metálica/acrílico  e  Flexível (silicone) Cotidente"></div>
-        <h3 class="tratamentos">Prótese removível metálica/acrílico e Flexível (silicone)</h3>
-        <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Ortodontia">
-          saiba mais
-        </button>
-      </div>
+        <div class="card" id="9">
+          <div><img class="image-container" src="img/lentescontato.webp" alt="lentes de contato Cotidente"></div>
+          <h3 class="tratamentos">lentes de contato</h3>
+          <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#contato">
+            saiba mais
+          </button>
+        </div>
+        <div class="card" id="10">
+          <div><img class="image-container" src="img/siso.webp" alt="Cirurgia de siso Cotidente"></div>
+          <h3 class="tratamentos">Cirurgia de sisos</h3>
+          <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#siso">
+            saiba mais
+          </button>
+        </div>
+        <div class="card" id="5">
+          <div><img class="image-container" src="img/clareamento.webp" alt="Clareamento dental Cotidente"></div>
+          <h3 class="tratamentos">Clareamento dental</h3>
+          <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#invisalign">
+            saiba mais
+          </button>
+        </div>
+        <div class="card" id="11">
+          <div><img class="image-container" src="img/raiox.webp" alt="RaioX panorâmico Cotidente"></div>
+          <h3 class="tratamentos">Raio x panorâmico</h3>
+          <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Ortodontia">
+            saiba mais
+          </button>
+        </div>
+        <div class="card" id="12">
+          <div><img class="image-container" src="img/dentadura.webp"
+              alt="Prótese removível metálica/acrílico  e  Flexível (silicone) Cotidente"></div>
+          <h3 class="tratamentos">Prótese removível metálica/acrílico e Flexível (silicone)</h3>
+          <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Ortodontia">
+            saiba mais
+          </button>
+        </div>
 
 
+      </div>
+      <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
     </div>
-    <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
-  </div>
 
-  <!-- o que é  -->
-  <!-- siso  -->
-  <div class="modal fade" id="siso" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Cirurgia de Sisos</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Os dentes sisos (terceiros molares) são os últimos dentes a se formarem em nossas bocas. Temos 4 dentes
-          superiores sios , 2 e 2 inferiores , ambos os dentes posteriores , 2 e 2 inferiores , ambos de forma
-          superior , e ambos posteriores , ambos os dentes superiores , sem termo das arcadas dentárias em os lados .
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- facetas e dente de contato -->
-  <div class="modal fade" id="contato" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">lentes de contato em porcelana e resina composta</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          A faceta é um pouco mais grossa, e envolve o preparo do dente. A Lente de Contato Dental é extremamente mais
-          fina e exige pouco ou nenhum preparo no dente (desgaste dental), ou seja, a lente de contato é um
-          procedimento que desgasta menos o dente.
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+    <!-- o que é  -->
+    <!-- siso  -->
+    <div class="modal fade" id="siso" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Cirurgia de Sisos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Os dentes sisos (terceiros molares) são os últimos dentes a se formarem em nossas bocas. Temos 4 dentes
+            superiores sios , 2 e 2 inferiores , ambos os dentes posteriores , 2 e 2 inferiores , ambos de forma
+            superior , e ambos posteriores , ambos os dentes superiores , sem termo das arcadas dentárias em os lados .
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-
-  <!-- preenchimento  -->
-  <div class="modal fade" id="preenchimentos" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">preenchimentos</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          O preenchimento labial é um procedimento minimamente invasivo que visa destacar e realçar a beleza dos
-          lábios
-
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+    <!-- facetas e dente de contato -->
+    <div class="modal fade" id="contato" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">lentes de contato em porcelana e resina composta</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            A faceta é um pouco mais grossa, e envolve o preparo do dente. A Lente de Contato Dental é extremamente mais
+            fina e exige pouco ou nenhum preparo no dente (desgaste dental), ou seja, a lente de contato é um
+            procedimento que desgasta menos o dente.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- botox -->
-  <div class="modal fade" id="Botox" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Botox</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Procedimento que ameniza as rugas e linhas de expressão.
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+
+    <!-- preenchimento  -->
+    <div class="modal fade" id="preenchimentos" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">preenchimentos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            O preenchimento labial é um procedimento minimamente invasivo que visa destacar e realçar a beleza dos
+            lábios
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Endodontia  -->
-  <div class="modal fade" id="Endodontia" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Endodontia</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          tratamento e prevenção das doenças que atingem a parte interna do dente : a polpa, a polpa e os tecidos
-          periapicais, que envolve o envolvimento.
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+    <!-- botox -->
+    <div class="modal fade" id="Botox" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Botox</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Procedimento que ameniza as rugas e linhas de expressão.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- invisalign  -->
-  <div class="modal fade" id="invisalign" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">invisalign</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          O Alinhador Transparente Mais Avançado do Mundo. Alinhador Transparente. Aparelho Discreto. Aspecto
-          Invisível. Confortável. Feito Sob Medida. Aparelho Transparente.
-
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+    <!-- Endodontia  -->
+    <div class="modal fade" id="Endodontia" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Endodontia</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            tratamento e prevenção das doenças que atingem a parte interna do dente : a polpa, a polpa e os tecidos
+            periapicais, que envolve o envolvimento.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- aparelhos autoligados ou convencional  -->
-  <div class="modal fade" id="Ortodontia" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">aparelhos auto ligados ou convencional</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Os aparelhos autoligados são aqueles que têm os arcos ou elásticos ligados aos braquetes diretamente, sem a
-          necessidade de ligaduras.
-          Os aparelhos usuais são os clássicos de ligas metálicas, nos noivos nos dentes a fim de os reais. Esses
-          modelos devem das borrachinhas, como responsáveis ​​por segurar o fio no lugar, passando por cada um dos
-          bráquetes.
+    <!-- invisalign  -->
+    <div class="modal fade" id="invisalign" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">invisalign</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            O Alinhador Transparente Mais Avançado do Mundo. Alinhador Transparente. Aparelho Discreto. Aspecto
+            Invisível. Confortável. Feito Sob Medida. Aparelho Transparente.
 
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
+    <!-- aparelhos autoligados ou convencional  -->
+    <div class="modal fade" id="Ortodontia" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">aparelhos auto ligados ou convencional</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Os aparelhos autoligados são aqueles que têm os arcos ou elásticos ligados aos braquetes diretamente, sem a
+            necessidade de ligaduras.
+            Os aparelhos usuais são os clássicos de ligas metálicas, nos noivos nos dentes a fim de os reais. Esses
+            modelos devem das borrachinhas, como responsáveis ​​por segurar o fio no lugar, passando por cada um dos
+            bráquetes.
 
-  <!-- barra clip  -->
-  <div class="modal fade" id="clip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">barra clip</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          clipe de uma barra plástica fun- dição ou já metal e de um clipe de consistência em. Neste sistema, os
-          implantes são unidos pela barra , o clipe , alojado dentro da prótese, que se encaixará na barra quando a
-          prótese estiver em posição na boca.
-
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- protocolo  -->
-  <div class="modal fade" id="protocolo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">protocolo</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Um protocolo de prótese é uma solução e segura que atua na reabilitação oral de pacientes que já atenderá a
-          todos os dentes. Ela funciona como uma prótese fixa, composta, geralmente, por 12 dentes presos em uma
-          estrutura única, que são parafusados ​​sobre 4 a 6 implantes
-
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
 
-  <!-- Implantes unitário  -->
-  <div class="modal fade" id="Implantessendounitário" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Implantes unitário</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          o dentista substitui a raiz do dente colocando o pino de titânio e posteriormente confeccionando um dente
-          artificial de porcelana, substituindo a coroa do dente, parte que vemos. Se a pessoa tiver perdido poucos
-          dentes não sequenciais esse é o método mais indicado.
+    <!-- barra clip  -->
+    <div class="modal fade" id="clip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">barra clip</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            clipe de uma barra plástica fun- dição ou já metal e de um clipe de consistência em. Neste sistema, os
+            implantes são unidos pela barra , o clipe , alojado dentro da prótese, que se encaixará na barra quando a
+            prótese estiver em posição na boca.
 
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+
+
+    <!-- protocolo  -->
+    <div class="modal fade" id="protocolo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">protocolo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Um protocolo de prótese é uma solução e segura que atua na reabilitação oral de pacientes que já atenderá a
+            todos os dentes. Ela funciona como uma prótese fixa, composta, geralmente, por 12 dentes presos em uma
+            estrutura única, que são parafusados ​​sobre 4 a 6 implantes
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Implantes unitário  -->
+    <div class="modal fade" id="Implantessendounitário" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Implantes unitário</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            o dentista substitui a raiz do dente colocando o pino de titânio e posteriormente confeccionando um dente
+            artificial de porcelana, substituindo a coroa do dente, parte que vemos. Se a pessoa tiver perdido poucos
+            dentes não sequenciais esse é o método mais indicado.
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <!-- Carrossel -->
-<section class="clinica">
-  <div class="carrosel">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <section class="clinica">
+      <div class="carrosel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/consultorio1.webp" class="d-block img-consutorio w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/consultorio2.webp" class="d-block img-consutorio w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/consultorio3.webp" class="d-block img-consutorio w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/consultorio1.webp" class="d-block img-consutorio w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="img/consultorio2.webp" class="d-block img-consutorio w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="img/consultorio3.webp" class="d-block img-consutorio w-100" alt="...">
-        </div>
+      <div class="sobre-cotidente">
+        <h2>Cotidente</h2>
+        <p>Na Cotidente você encontra os melhores, profissionais, produtos, e equipamentos super modernos, como nosso
+          laboratório de prótese que irá proporcionar a você agilidade, conforto e bem estar, fazemos tudo para
+          transformar sua ida ao dentista em uma experiência unica, Agende uma consulta e surpreenda-se!</p>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-  <div class="sobre-cotidente">
-    <h2>Cotidente</h2>
-    <p>Na Cotidente você encontra os melhores, profissionais, produtos, e equipamentos super modernos, como nosso laboratório de prótese que irá proporcionar a você agilidade, conforto e bem estar, fazemos tudo para transformar sua ida ao dentista em uma experiência unica,  Agende uma consulta e surpreenda-se!</p>
-  </div>
-</section>
-   
-    <!-- Titulo -->
-    <!-- <section id="titulo" class="cor-titulo container-fluid">
-      <h1 class="text-center cor-especial pt-3 m-0 fonte-titulo">COTIDENTE</h1>
-      <h2 class="text-center fonte-sub cor-especial p-2 m-0">Dra Gesiely Espalva</h2>
-    </section> -->
-
-
-
-
-
-
-  
+    </section>
 
 
 
     <!-- Depoimentos Dos Pacientes -->
-    <section id="depoimentos" class="container-fluid cor-depoimento">
+    <!-- <section id="depoimentos" class="container-fluid cor-depoimento">
       <h3 class="text-center depoimentos pt-3 m-0">Depoimentos</h3>
       <div class="row justify-content-center">
         <article id="Comentario 1" class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
@@ -535,22 +536,22 @@
           </div>
         </article>
       </div>
-      <div class="cor-hora hora-tamanho text-center container-md pt-5">
-        <!-- ver mais comentários -->
-        <a href="https://www.google.com/search?q=clinica+cotidente&oq=c&aqs=chrome.1.69i57j35i39l2j69i59j69i60l4.3423j0j7&sourceid=chrome&ie=UTF-8#lrd=0x94cf0764411435bd:0x2c3598cda7f7a293,1,,,"
+      <div class="cor-hora hora-tamanho text-center container-md pt-5"> -->
+    <!-- ver mais comentários -->
+    <!-- <a href="https://www.google.com/search?q=clinica+cotidente&oq=c&aqs=chrome.1.69i57j35i39l2j69i59j69i60l4.3423j0j7&sourceid=chrome&ie=UTF-8#lrd=0x94cf0764411435bd:0x2c3598cda7f7a293,1,,,"
           class="btn btn-primary">Ver Mais Comentário <img class="icons-link"
-            src="https://img.icons8.com/color/50/000000/speech-bubble-with-dots.png" /></a>
+            src="https://img.icons8.com/color/50/000000/speech-bubble-with-dots.png" /></a> -->
 
-        <!-- Avaliar -->
-        <a href="https://www.google.com/search?q=clinica+cotidente&oq=c&aqs=chrome.1.69i57j35i39l2j69i59j69i60l4.3423j0j7&sourceid=chrome&ie=UTF-8#lrd=0x94cf0764411435bd:0x2c3598cda7f7a293,3,,,"
+    <!-- Avaliar -->
+    <!-- <a href="https://www.google.com/search?q=clinica+cotidente&oq=c&aqs=chrome.1.69i57j35i39l2j69i59j69i60l4.3423j0j7&sourceid=chrome&ie=UTF-8#lrd=0x94cf0764411435bd:0x2c3598cda7f7a293,3,,,"
           class="btn btn-primary">Avaliar</a>
       </div>
 
-    </section>
+    </section> -->
 
 
     <!-- Equipe  -->
-    <section class="container-fluid pt-5 pb-5 text-right cor-equipe" id="quemsomos">
+    <!-- <section class="container-fluid pt-5 pb-5 text-right cor-equipe" id="quemsomos">
       <div class="text-center container-md img-equipe">
         <div class="card ">
           <img class="img-fluid " alt="equipe" src="img/equipe.webp">
@@ -565,16 +566,35 @@
             </p>
           </div>
         </div>
-    </section>
+    </section> -->
 
 
     <!-- Degrade do Branco para Azul -->
     <section class="final ">
 
+      <aside id="horariodefuncionamento" class="cor-hora hora-tamanho  container-md pt-5">
+        <h3 class="r m-0  horario">Horário de funcionamento</h3>
+        <p class="m-0 hora">De Segunda a sexta das 9:00 às 18:00</p>
+        <p class="hora">Sábado das 9:00 às 14:00</p>
 
+        <!-- <h3 class="text-white">Telefone Para contato</h3>
+        <a href="tel:+55(11) 4321-2423" class="btn telefone btn-primary"><img
+            src="https://img.icons8.com/color/24/000000/phone-message--v1.png" alt="Telefone ">Telefone fixo (11)
+          4321-2423</a>
+        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998873053" class="btn btn-primary"><img
+            src="https://img.icons8.com/color/24/000000/whatsapp--v1.png" alt="whatsapp"> Whatsapp(11) 99887-3053</a> -->
+
+
+        <!-- link do whatsapp da Clinica -->
+
+      </aside>
       <!-- localização  -->
       <section id="local" class="contaienr  cor-local text-center">
-
+        <a href="https://www.google.com/maps/place/Cotidente+Odontologia/@-23.6038048,-46.9191411,17.47z/data=!4m6!3m5!1s0x94cf0764411435bd:0x2c3598cda7f7a293!8m2!3d-23.6043169!4d-46.9162007!16s%2Fg%2F11btrrw6xd"
+          target="_blank" rel="noopener noreferrer" type="button" class="btn local-link btn-primary">Av Rotary N° 100
+          Jardim
+          Nomura Cotia - SP 06717-090 Brasil <img class="icons-link"
+            src="https://img.icons8.com/color/48/000000/google-maps.png" alt="icon maps" /></a>
         <div class="maps">
           <div class="ratio ratio-4x3 container mapa mb-0 m-0">
             <iframe class="embed-responsive-item"
@@ -589,31 +609,12 @@
         <!-- mapa -->
 
         <!-- link do Mapa -->
-        <a href="https://www.google.com/maps/place/Cotidente+Odontologia/@-23.6038048,-46.9191411,17.47z/data=!4m6!3m5!1s0x94cf0764411435bd:0x2c3598cda7f7a293!8m2!3d-23.6043169!4d-46.9162007!16s%2Fg%2F11btrrw6xd"
-          target="_blank" rel="noopener noreferrer" type="button" class="btn local-link btn-primary">Av Rotary N° 100
-          Jardim
-          Nomura Cotia - SP 06717-090 Brasil <img class="icons-link"
-            src="https://img.icons8.com/color/48/000000/google-maps.png" alt="icon maps" /></a>
+
 
       </section>
 
       <!-- horário de funcionamento -->
-      <aside id="horariodefuncionamento" class="cor-hora hora-tamanho text-center container-md pt-5">
-        <h3 class="text-center m-0 text-white">Horário de funcionamento</h3>
-        <p class="m-0 text-white">De Segunda a sexta das 9:00 às 18:00</p>
-        <p class="text-white">Sábado das 9:00 às 14:00</p>
 
-        <h3 class="text-white">Telefone Para contato</h3>
-        <a href="tel:+55(11) 4321-2423" class="btn telefone btn-primary"><img
-            src="https://img.icons8.com/color/24/000000/phone-message--v1.png" alt="Telefone ">Telefone fixo (11)
-          4321-2423</a>
-        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998873053" class="btn btn-primary"><img
-            src="https://img.icons8.com/color/24/000000/whatsapp--v1.png" alt="whatsapp"> Whatsapp(11) 99887-3053</a>
-
-
-        <!-- link do whatsapp da Clinica -->
-
-      </aside>
 
       <!-- Redes sociais -->
       <section id="contato" class="cor-contato m-0 pt-4">
@@ -624,6 +625,8 @@
                 src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" alt="instagram" /></a>
             <a href="https://www.facebook.com/cotidente"><img src="https://img.icons8.com/color/48/000000/facebook.png"
                 alt="facebook" /></a>
+            <a href="https://www.youtube.com/channel/UC-0nOmpCCrBt1XOuVsff5IQ/videos" target="_blank"
+              rel="noopener noreferrer"><img src="https://img.icons8.com/color/48/000000/youtube-play.png" /></a>
           </figure>
         </div>
 
@@ -634,6 +637,7 @@
   <!-- rodapé  -->
   <footer class="cor-footer p-1">
     <p class="text-light m-0 text-center">&copy2021 Cotidente </p>
+    <p>Desenvilvido por Diogozura</p>
   </footer>
   </section>
 

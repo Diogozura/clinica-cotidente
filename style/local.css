@@ -1,0 +1,10 @@
+.horario{
+    color: var(--cor0);
+    text-align: center;
+}
+.hora{
+    font-size: 1.4em;
+    font-weight: 600;
+    text-align:center;
+    color: var(--colorFont);
+}

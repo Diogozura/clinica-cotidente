@@ -12,6 +12,7 @@
 
 :root{
     /* cores  SENSAÇÃO CROMÁTICA   */
+    --colorFont:#1C1C1C;
     --cor0:#01aad1;
     --cor1:#0673a1;
     --cor2:#024d79;
@@ -43,9 +44,8 @@ body{
     background-color: #fffefe;
 }
 
-.colors-nav{
-    background-color: #d48b7a;
-}
+
+
 h1.fonte-titulo{
     font-family: var(--fonte-destaque);
 }
@@ -70,7 +70,7 @@ h2,h3 {
     background-color:#F5F5F5;
 }
 .final{
-    background-image: linear-gradient(to bottom, #f5f5f5,#024d79);
+    background-image: linear-gradient(to bottom, #fff,#024d79);
 }
 
 /* */
@@ -82,33 +82,17 @@ h2,h3 {
 
 
     
-.logo{
-    width:200px;
-   
-    border-radius: 20px;
-    margin: 0;
-    
-}
 
-.icons-link{
-    width: 24px;
-    height: 24px;
-}
+
+
 /*  */
 
 /* corrosel */
-.imagem-carrosel{
-    background-image: linear-gradient(to bottom ,#FFFF , #F5F5F5 );
-    margin-top: 50px;
-    object-position: 50% 10px;
-    object-fit: contain;
-    max-height: 600px;
-    
-}
+
 /*  */
 
 /* cards */
-.card-largura{
+/* .card-largura{
     max-width: 18rem;
 }
 
@@ -125,50 +109,21 @@ h2,h3 {
 .botao-cor-especial{
     background-color: var(--cor0);
     color: white;
-}
+} */
 
 /*Equipe  */
 
 
-.img-equipe{
-    max-width: 700px;
-}
+
 a{
     text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
 }
-/* mapa */
-.maps{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.mapa{
-    max-width: 550px;
-    max-height: 365px;
-}
-
-.hora-tamanho{
-    max-width: 400px;
-}
-img.img-faxada{
-    max-width: 650px;
-    max-height: 450px;
-    border-radius: 10px;
-}
-
-/* redes sociais*/
-.icon{
-
-    padding-right: 8px;
-}
 /*  */
 
-.cor-footer{
-    background-color: #024d79;
-}
+
   h3.depoimentos {
     padding: 1em;
     margin-top: 1em;
@@ -181,21 +136,3 @@ img.img-faxada{
     display: inline-block;
     transform: translateX(calc((100vw - 100%) / 2))
   }
-  h3.tratamentos{
-    color: #056892;
-  }
-  .telefone{
-      margin: 10px;
-  }
-.botao{
-    color: whitesmoke;
-    background-color: #01aad1;
-}
-.botao:hover{
-    color: whitesmoke;
-    background-color: #008faf;
-}
-
-@media screen {
-    
-}

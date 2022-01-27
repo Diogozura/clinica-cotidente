@@ -28,7 +28,10 @@
   html {
     font-family: var(--fonte-destaque);
   }
-  
+h2.trata{
+    color: var(--cor0);
+    font-size: 3em;
+}
   .visuallyhidden {
     position: absolute;
     z-index: -1;

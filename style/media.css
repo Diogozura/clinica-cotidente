@@ -1,0 +1,52 @@
+
+@media only screen and  (max-width:900px) { 
+    img.logo{
+        width: 150px;
+    }
+    .nome{
+        display: none;
+    }
+    .imagem-principal{
+        height: 400px;
+        object-fit: cover;
+    }
+    .agendar{
+       margin-right: auto;
+       margin-left: auto;
+       align-items: center;
+       width: 250px;
+       margin-top: 15px;
+    }
+    .img-consutorio{
+        height: 200px;  
+    }
+    .clinica{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .carrosel{
+        margin-left: 0px;
+        margin: 10px;
+        height: 100%;
+    }
+    .img-faxada{
+        width: 320px;
+    }
+    .mapa{
+        width: 340px;
+        height: 300px;
+    }
+    .local-link{
+        margin-top: 10px;
+        padding: 5px;
+    }
+}
+@media only screen and  (max-width:500px) { 
+    .agendar{
+        display: none;
+    }
+    .img-faxada{
+        width: 350px;
+    }
+}
