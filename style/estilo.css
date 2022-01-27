@@ -64,13 +64,13 @@ h2,h3 {
 
 /* cores da pagina */
 .cor-titulo,.cor-tratamento,.cor-depoimento {
-    background-color: #F5F5F5;
+    background-color: #FFFF;
 }
 .cor-equipe{
-    background-color:#F5F5F5;
+    background-color:#FFFF;
 }
 .final{
-    background-image: linear-gradient(to bottom, #fff,#024d79);
+    background-image: linear-gradient(to bottom, #FFFF,#024d79);
 }
 
 /* */
