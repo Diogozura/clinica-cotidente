@@ -1,0 +1,60 @@
+
+.banner{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.imagem-principal-tratamento{
+    width: 100%;
+    object-fit: cover;
+    
+    -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
+    filter: blur(1px);
+    max-height: 300px;
+}
+h1.font1{
+    color: #1C1C1C;
+    
+}
+.nome {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 40px 20px;
+    font-size: 6em;
+    margin: 0px;
+    border-radius: 20px;
+  }
+  .agendar {
+    margin-bottom: 50px;
+    width: 300px;
+    margin-left: auto;
+    background-color: hsla(15, 59%, 79%, 0.80);
+    color: var(--colorFont);
+    padding: 20px;
+
+    text-align: center;
+    border-radius: 20px;
+}
+  .agendar>h3{
+    padding: 10px;
+    font-size: 2em;
+  }
+  .agendar>p{
+      font-size: 1.6em;
+      font-weight: 600;
+      margin: 0.2em 0;
+  }
+  .agendar>a{
+      text-decoration: none;
+      
+      border-radius: 10px;
+      font-size: 1.4em;
+      padding: 5px;
+      color: var(--colorFont);
+  }
+  .agendar>a:hover{
+    text-decoration: underline;
+  }
