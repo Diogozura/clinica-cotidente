@@ -8,3 +8,7 @@
     text-align:center;
     color: var(--colorFont);
 }
+.local-link{
+    font-size: 1.4em;
+    margin-left: 100px;
+}

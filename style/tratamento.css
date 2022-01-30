@@ -24,8 +24,43 @@
     --fonte-destaque2: 'Autography',cursive;
 
 }
+.tratametos{
+  max-width: 600px;
+  height: 100%;
   
-  html {
+  margin: auto;
+  margin-top: 2em;
+ 
+  
+}
+h2{
+  color: var(--cor0);
+}
+article{
+  background-color: hsla(191, 99%, 41%, 0.61);
+  border-radius: 10px;
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+p{
+  text-align: center;
+  font-family: var(--fonte-padrao);
+  font-weight: 600;
+}
+aside>a>img{
+  padding: 10px;
+  border-radius: 50%;
+  background-color: hsl(15, 59%, 79%);
+}
+img:hover{
+  background-color: var(--cor2);
+}
+
+
+
+  /* html {
     font-family: var(--fonte-destaque);
   }
 h2.trata{
@@ -113,7 +148,7 @@ h2.trata{
     -moz-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
     box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
     
-  }
+  } */
   
 
   

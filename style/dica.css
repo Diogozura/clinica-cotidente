@@ -1,0 +1,27 @@
+h2{
+    text-align: center;
+}
+section.video-dica{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+    background-color: hsla(15, 58%, 79%, 0.801);
+
+    border-radius: 10px;
+  }
+  
+  div.video{
+    margin-bottom: 30px;
+    margin: 0px, -40px;
+    padding: 20px;
+    padding-bottom: 57%;
+  
+    position: relative;
+  }
+  div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+  }

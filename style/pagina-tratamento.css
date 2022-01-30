@@ -1,0 +1,26 @@
+.banner{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.imagem-principal-tratamento{
+    width: 100%;
+    object-fit: cover;
+    
+    -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
+    filter: blur(1px);
+    max-height: 250px;
+}
+
+.nome {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 40px 20px;
+    font-size: 6em;
+    margin: 0px;
+   
+    border-radius: 20px;
+  }
