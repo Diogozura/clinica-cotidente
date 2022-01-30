@@ -52,7 +52,7 @@ h2.font2{
 }
 .nome {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 20%;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.5);
@@ -64,7 +64,7 @@ h2.font2{
   }
   .agendar {
     position: absolute;
-    top: 50%;
+    top: 60%;
     right: 5%;  
     width: 300px;
     transform: translate(-50%, -50%);
