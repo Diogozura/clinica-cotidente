@@ -11,3 +11,8 @@
 .nav-blue{
     color: var(--cor0);
 }
+.ativo{
+    background-color: #e8b9a9;
+    border-radius: 20px;
+
+}

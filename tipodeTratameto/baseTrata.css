@@ -1,0 +1,7 @@
+.tipos-de-tratamento{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 50px;
+}
