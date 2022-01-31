@@ -26,6 +26,9 @@
     text-align: center;
     color: white;
 }
+.logo-banner{
+    width: 70px;
+}
 .imagem-carrosel{
     background-image: linear-gradient(to bottom ,#FFFF , #F5F5F5 );
     margin-top: 50px;
@@ -42,10 +45,9 @@
     max-height: 650px;
 
 }
-h1.font1{
+h1.principal{
     font-family: var(--fonte-destaque);
-    color: var(--colorFont);
-    
+    color: var(--cor1);
 }
 h2.font2{
     font-family: var(--fonte-destaque2);
@@ -57,7 +59,7 @@ h2.font2{
     left: 20%;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 40px 20px;
+    padding: 10px 20px;
     font-size: 6em;
     margin: 0px;
    

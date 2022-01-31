@@ -3,9 +3,9 @@
     img.logo{
         width: 150px;
     }
-    .nome{
+    /* .nome{
         display: none;
-    }
+    } */
     .imagem-principal{
         height: 400px;
         object-fit: cover;

@@ -55,63 +55,23 @@ h1.fonte-titulo{
 h2,h3 {
     font-family: var(--fonte-padrao);
     font-weight: bold;
+    color: var(--cor0);
 }
 .cor-especial{
     color:var(--cor2);
 }
 
-/*   */
-
-/* cores da pagina */
-.cor-titulo,.cor-tratamento,.cor-depoimento {
-    background-color: #FFFF;
-}
-.cor-equipe{
-    background-color:#FFFF;
-}
 .final{
-    background-image: linear-gradient(to bottom, #FFFF,#024d79);
+    background-image: linear-gradient(to bottom, #FFFF,#01aad1);
 }
 
-/* */
 
-/* nav */
 .texto-cor-especial {
     color: var(--cor2) !important;
 }
 
 
     
-
-
-
-/*  */
-
-/* corrosel */
-
-/*  */
-
-/* cards */
-/* .card-largura{
-    max-width: 18rem;
-}
-
-.card-posicao-imagem{
-    object-fit: cover;
-    height: 200px;
-}
-.cor-cards{
-    background-color:#FFFFFF;
-    
-    color: var(--cor9);
-}
-
-.botao-cor-especial{
-    background-color: var(--cor0);
-    color: white;
-} */
-
-/*Equipe  */
 
 
 
