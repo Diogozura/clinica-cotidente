@@ -29,7 +29,7 @@
     font-family: var(--fonte-destaque);
   }
 h2.trata{
-    color: var(--cor0);
+    color: var(--cor1);
     font-size: 3em;
 }
   .visuallyhidden {
@@ -99,7 +99,10 @@ h2.trata{
   .card.highlight {
     filter: brightness(1)
   }
-  
+  .botao{
+    background-color: var(--cor1);
+    color: whitesmoke;
+  }
   
   
   .image-container {

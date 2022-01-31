@@ -55,7 +55,7 @@ h1.fonte-titulo{
 h2,h3 {
     font-family: var(--fonte-padrao);
     font-weight: bold;
-    color: var(--cor0);
+    
 }
 .cor-especial{
     color:var(--cor2);
