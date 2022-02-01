@@ -1,118 +1,16 @@
-@font-face {
-    font-family: 'Sunflower';
-    src: url(../fonts/Sunflower.otf) format('opentype');
-    font-weight: normal;
-}
-@font-face {
-    font-family: 'Autography';
-    src: url(../fonts/Autography.otf) format('opentype');
-}
+.quem-somos{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=The+Nautigal&display=swap');
-:root{
-    /* cores  SENSAÇÃO CROMÁTICA   */
-    --colorFont:#1C1C1C;
-    --cor0:#01aad1;
-    --cor1:#0673a1;
-    --cor2:#024d79;
-    --cor3:#626262;
-
-    /* cores Cores secundárias */
-    --cor4:#e8b9a9 ;
-    --cor5:#eb9e82;
-    --cor6:#d48b7a;
-    --cor7:#1b869a;
-    --cor8:#046077;
-    --cor9:#003a46;
-
-    /* fontes */
-    --fonte-padrao: 'Oswald', sans-serif;
-    --fonte-destaque:'Sunflower', cursive;
-    --fonte-destaque2: 'Autography', 'The Nautigal', cursive;
-
-}
-
-.banner{
-    position: relative;
-    text-align: center;
-    color: white;
-}
-.logo-banner{
-    width: 70px;
-}
-
-.imagem-principal{
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-     -webkit-filter: blur(1px);  /*Safari 6.0 - 9.0  */
-    filter: blur(1px);
-    max-height: 650px;
-
-}
-h1.principal{
-    font-family: 'Sunflower', cursive;
-    color: var(--cor1);
-   
-}
-h2.font2{
-    font-family: var(--fonte-destaque2);
-    color: var(--colorFont);
-    text-align: right
-}
-.nome {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 10px 20px;
-    font-size: 1em;
-    margin: 0px;
-   
-    border-radius: 20px;
-  }
-  .agendar {
-    position: absolute;
-    top: 50%;
-    right: 5%;  
-    width: 300px;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    color: var(--colorFont);
-    padding: 20px;
-
-    text-align: center;
-
-    border-radius: 20px;
-}
-  .agendar>h3{
-    padding: 10px;
-    font-size: 2em;
-  }
-  .agendar>p{
-      font-size: 1.6em;
-      font-weight: 600;
-      margin: 0.2em 0;
-  }
-  .agendar>a{
-      text-decoration: none;
-      
-      border-radius: 10px;
-      font-size: 1.4em;
-      padding: 5px;
-      color: var(--colorFont);
-  }
-  .agendar>a:hover{
-    text-decoration: underline;
-  }
-
-#quem-somos{
-    margin: 30px 40px;
+    display: grid;
+    justify-content: space-around;
+    justify-items: center;
 }
 .img{
     
 }
 .img-equipe{
     width: 500px;
+    margin-right: auto;
 }
