@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Sunflower';
+    src: url(../fonts/Sunflower.otf) format('opentype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Autography';
+    src: url(../fonts/Autography.otf) format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=The+Nautigal&display=swap');
 :root{
     /* cores  SENSAÇÃO CROMÁTICA   */
     --colorFont:#1C1C1C;
@@ -16,7 +27,7 @@
 
     /* fontes */
     --fonte-padrao: 'Oswald', sans-serif;
-    --fonte-destaque:'Sunflower','Playfair Display', cursive;
+    --fonte-destaque:'Sunflower', cursive;
     --fonte-destaque2: 'Autography', 'The Nautigal', cursive;
 
 }
@@ -40,7 +51,7 @@
 
 }
 h1.principal{
-    font-family: var(--fonte-destaque);
+    font-family: 'Sunflower', cursive;
     color: var(--cor1);
    
 }
