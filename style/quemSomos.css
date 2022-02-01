@@ -95,6 +95,13 @@ h2.font2{
   .agendar>a:hover{
     text-decoration: underline;
   }
-.img-logo{
-    width: 400px;
+
+#quem-somos{
+    margin: 30px 40px;
+}
+.img{
+    
+}
+.img-equipe{
+    width: 500px;
 }
