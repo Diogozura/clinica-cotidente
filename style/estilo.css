@@ -62,7 +62,7 @@ h2,h3 {
 }
 
 .final{
-    background-image: linear-gradient(to bottom, #FFFF,#01aad1);
+    background-image: linear-gradient(to bottom, hsla(15, 59%, 79%, 0.644),#01aad1);
 }
 
 

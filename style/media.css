@@ -49,4 +49,13 @@
     .img-faxada{
         width: 350px;
     }
+    .diferencial{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .quem-somos{
+        flex-wrap: wrap;
+    }
+  
 }
