@@ -4,10 +4,9 @@
     justify-content: space-around;
     justify-items: center;
     flex-direction: column;
-    align-content: center;
     flex-wrap: wrap;
-    align-items: center;
-
+    align-items: stretch;
+    align-content: space-around;
 }
 .img{
     
@@ -17,7 +16,7 @@
     border-radius: 20px;
 }
 .bloco-quem-somos{
-    max-width: 600px;
+    max-width: 500px;
     margin-top: 10px;
 }
 .somos{

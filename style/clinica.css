@@ -3,7 +3,6 @@
     margin-bottom: 4em;
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 .carrosel{ 
     width: 600px;
@@ -17,7 +16,7 @@
 }
 .sobre-cotidente{
     width: 700px;
-    height: 300px;
+    height: 200px;
     text-align: center;
     text-justify: center;
     background-color: #f2f2f2;
