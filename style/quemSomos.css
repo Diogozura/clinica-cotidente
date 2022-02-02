@@ -1,9 +1,13 @@
 .quem-somos{
     
-
     display: flex;
     justify-content: space-around;
     justify-items: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
 }
 .img{
     
