@@ -44,6 +44,9 @@ body{
     margin: 0;
     background-color: #fffefe;
 }
+/* main{
+    background-image: linear-gradient(to bottom,#fffefe, #e8b9a9 );
+} */
 .zap{
     display: none;
     position: fixed;
@@ -62,7 +65,7 @@ h1.fonte-titulo{
 }
 h2,h3 {
     font-family: var(--fonte-padrao);
-    color: var(--cor1);
+    color: var(--cor9);
     font-weight: bold;
     
 }

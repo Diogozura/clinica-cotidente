@@ -40,6 +40,15 @@
         margin: 10px;
         height: 100%;
     }
+    .sobre-cotidente{
+        height: 200px;
+        margin: 0;
+        padding: 0px;
+        object-fit: cover;
+    }
+    .img-sobre{
+
+    }
     .img-faxada{
         width: 320px;
         margin-top: 10px;
