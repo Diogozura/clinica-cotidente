@@ -30,19 +30,18 @@
     border-radius: 20px;
     margin: 10px 0px;
     
-    background-color: var(--cor0);
+    background-color: var(--corCard);
 }
 .icon-diferente{
     background-color: rgb(255, 255, 255);
     border-radius: 50px;
     padding: 10px;
+    margin: 10px;
 }
 .poli{
     
 }
-.personalizado{
-    
-}
+
 .time{
     
 }

@@ -13,6 +13,7 @@
 :root{
     /* cores  SENSAÇÃO CROMÁTICA   */
     --colorFont:#1C1C1C;
+    --corCard:#ABE3FF;
     --cor0:#01aad1;
     --cor1:#0673a1;
     --cor2:#024d79;
@@ -43,7 +44,13 @@ body{
     margin: 0;
     background-color: #fffefe;
 }
-
+.zap{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    /* left: 0; */
+    z-index: 1030;
+}
 
 
 h1.fonte-titulo{
@@ -54,8 +61,12 @@ h1.fonte-titulo{
 }
 h2,h3 {
     font-family: var(--fonte-padrao);
+    color: var(--cor1);
     font-weight: bold;
     
+}
+p.destaque{
+    font-family: var(--fonte-padrao);
 }
 .cor-especial{
     color:var(--cor2);
