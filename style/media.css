@@ -37,10 +37,11 @@
     }
     .img-faxada{
         width: 320px;
+        margin-top: 10px;
     }
     .mapa{
-        width: 340px;
-        height: 300px;
+        width: 320px;
+        height: 280px;
     }
     .local-link{
         margin-top: 10px;
@@ -51,9 +52,6 @@
     .agendar{
         display: none;
     }
-    .img-faxada{
-        width: 350px;
-    }
     .diferencial{
         display: flex;
         justify-content: space-around;
@@ -63,7 +61,7 @@
         flex-wrap: wrap;
     }
     .img-equipe{
-    width: 350px;
+    width: 320px;
     }
     .local-link{
         margin-left: 0;
