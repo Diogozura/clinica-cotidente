@@ -60,6 +60,9 @@
     .quem-somos{
         flex-wrap: wrap;
     }
+    .logo-banner{
+        width: 48px;
+    }
     .img-equipe{
     width: 320px;
     }
