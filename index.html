@@ -152,29 +152,7 @@
       <!-- <h2 class="text-center trata ">Tratamentos oferecidos</h2> -->
       <div class="container">
         <div class="card-carousel">
-          <div class="card" id="1">
-            <div><img class="image-container" src="img/implante.webp" alt="Implantes unitário Cotidente"></div>
-            <h3 class="tratamentos">Implantes</h3>
-            <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Implantessendounitário">
-              saiba mais
-            </button>
-          </div>
-
-          <div class="card" id="2">
-            <div><img class="image-container" src="img/protocolo.webp" alt="Prótese protocolo Cotidente"></div>
-            <h3 class="tratamentos">Prótese protocolo</h3>
-            <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#protocolo">
-              Saiba mais
-            </button>
-          </div>
-
-          <div class="card" id="3">
-            <div><img class="image-container" src="img/overdenture.webp" alt="Prótese overdenture Cotidente"></div>
-            <h3 class="tratamentos">Prótese overdenture</h3>
-            <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#clip">
-              saiba mais
-            </button>
-          </div>
+          
 
           <div class="card" id="4">
             <div><img class="image-container" src="img/aparelho.webp" alt="Aparelhos fixos Cotidente"></div>
@@ -205,6 +183,30 @@
             <div><img class="image-container" src="img/botox.webp" alt="Botox Cotidente"></div>
             <h3 class="tratamentos">Harmonização facial</h3>
             <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Botox">
+              saiba mais
+            </button>
+          </div>
+
+          <div class="card" id="1">
+            <div><img class="image-container" src="img/implante.webp" alt="Implantes unitário Cotidente"></div>
+            <h3 class="tratamentos">Implantes</h3>
+            <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#Implantessendounitário">
+              saiba mais
+            </button>
+          </div>
+
+          <div class="card" id="2">
+            <div><img class="image-container" src="img/protocolo.webp" alt="Prótese protocolo Cotidente"></div>
+            <h3 class="tratamentos">Prótese protocolo</h3>
+            <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#protocolo">
+              Saiba mais
+            </button>
+          </div>
+
+          <div class="card" id="3">
+            <div><img class="image-container" src="img/overdenture.webp" alt="Prótese overdenture Cotidente"></div>
+            <h3 class="tratamentos">Prótese overdenture</h3>
+            <button type="button" class="btn botao" data-bs-toggle="modal" data-bs-target="#clip">
               saiba mais
             </button>
           </div>
@@ -535,10 +537,57 @@
       </div>
 
       <div class="sobre-cotidente">
-        <h2>Cotidente</h2>
+        <!-- <h2>Cotidente</h2>
         <p>Na Cotidente você encontra os melhores, profissionais, produtos, e equipamentos super modernos, como nosso
           laboratório de prótese que irá proporcionar a você agilidade, conforto e bem estar, fazemos tudo para
           transformar sua ida ao dentista em uma experiência unica, Agende uma consulta e surpreenda-se!</p>
+      </div> -->
+      <div id="carouselExampleIndicator" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicator" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicator" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicator" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img src="img/Depoimento 1PNG.PNG" class="d-block w-100" alt="...">
+            </button>
+            
+          </div>
+          <div class="carousel-item">
+            <img src="img/2.PNG" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/3PNG.PNG" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicator" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicator" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body w-100">
+              <img src="img/Depoimento 1PNG.PNG" class="d-block w-100" alt="...">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
