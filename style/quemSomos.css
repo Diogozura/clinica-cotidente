@@ -18,6 +18,7 @@
 }
 .bloco-quem-somos{
     max-width: 600px;
+    margin-top: 10px;
 }
 .somos{
     color: var(--cor3);
