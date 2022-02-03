@@ -16,15 +16,9 @@
 }
 .sobre-cotidente{
     width: 600px;
-    height: 300px;
-    text-align: center;
-    text-justify: center;
-    background-color: var(--cor1);
-    
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    font-weight: 700;
+    background-color: var(--cor2);
+    border-radius: 20px;
+
 }
 .img-sobre{
     width: 400px;
@@ -32,9 +26,7 @@
 h2{
     color: var(--cor2);
 }
-.img-equipe{
-    max-width: 700px;
-}
+
 /* mapa  */
 .maps{
     display: flex;
