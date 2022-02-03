@@ -43,7 +43,7 @@
     object-position: center;
      /* -webkit-filter: blur(1px);  Safari 6.0 - 9.0  */
     /* filter: blur(1px); */
-    max-height: 650px;
+    max-height: 700px;
 
 }
 h1.principal{
@@ -68,7 +68,7 @@ h2.font2{
    
     border-radius: 20px;
   }
-  .agendar {
+  /* .agendar {
     position: absolute;
     top: 50%;
     right: 5%;  
@@ -101,4 +101,4 @@ h2.font2{
   }
   .agendar>a:hover{
     text-decoration: underline;
-  }
+  } */

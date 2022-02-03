@@ -1,5 +1,19 @@
 .cor-footer{
-    background-color: #01aad1;
+    background-color:var(--cor2);
+}
+.horario{
+    color: #FFF;
+    text-align: center;
+}
+.hora{
+    font-size: 1.4em;
+    font-weight: 600;
+    text-align:center;
+    color: #FFF;
+}
+.foto-mapa{
+    display: flex;
+    justify-content: space-around;
 }
 footer{
     /* position: fixed; */

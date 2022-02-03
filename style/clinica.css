@@ -1,9 +1,10 @@
 .clinica{
     margin-top: 4em;
-    margin-bottom: 4em;
+    padding: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: var(--cor4);
 }
 .carrosel{ 
     width: 600px;
@@ -16,34 +17,27 @@
     border-radius: 10px;
 }
 .sobre-cotidente{
-    width: 600px;
-    background-color: var(--cor2);
+    width: 500px;
     border-radius: 20px;
     height: 100%;
+    font-size: 1.4em;
+    color: #ffff;
 }
 .img-sobre{
     width: 400px;
 }
-h2{
-    color: var(--cor2);
+.depoimento{
+    background-color: var(--cor4);
+    margin-bottom: 4em;
 }
-
-/* mapa  */
-.maps{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.mapa{
-    max-width: 550px;
-    max-height: 365px;
-}
-
-.hora-tamanho{
-    max-width: 400px;
-}
-img.img-faxada{
-    max-width: 650px;
-    max-height: 450px;
+.imagem-depoimento{
+    object-fit: cover;  
+    width: 450px;
+    height: 100%;
     border-radius: 10px;
 }
+h2{
+    color: var(--cor2);
+    font-size: 2em;
+}
+

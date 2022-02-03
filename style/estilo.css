@@ -10,10 +10,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=The+Nautigal&display=swap');
 
+
 :root{
     /* cores  SENSAÇÃO CROMÁTICA   */
-    --colorFont:#1C1C1C;
-    --corCard:#ABE3FF;
     --cor0:#01aad1;
     --cor1:#0673a1;
     --cor2:#024d79;
@@ -36,8 +35,10 @@
 
 /* fontes */
 *{
-    
-     font-family: var(--fonte-padrao);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-padrao);
      
 }
 body{
@@ -60,8 +61,10 @@ body{
 h1.fonte-titulo{
     font-family: var(--fonte-destaque);
 }
-.fonte-sub{
+h2.fonte-dois{
     font-family:var(--fonte-destaque2) ;
+    text-align: right;
+    color: #000;
 }
 h2,h3 {
     font-family: var(--fonte-padrao);
@@ -80,34 +83,3 @@ p.destaque{
     background-image: linear-gradient(to bottom, hsla(15, 59%, 79%, 0.644),#01aad1);
 }
 
-
-.texto-cor-especial {
-    color: var(--cor2) !important;
-}
-
-
-    
-
-
-
-a{
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: underline;
-}
-/*  */
-
-
-  h3.depoimentos {
-    padding: 1em;
-    margin-top: 1em;
-    font-family: var(--fonte-padrao);
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    color: var(--cor1);
-    border-radius: .2em;
-    display: inline-block;
-    transform: translateX(calc((100vw - 100%) / 2))
-  }

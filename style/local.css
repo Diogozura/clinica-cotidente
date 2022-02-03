@@ -1,14 +1,22 @@
-.horario{
-    color: var(--cor0);
-    text-align: center;
-}
-.hora{
-    font-size: 1.4em;
-    font-weight: 600;
-    text-align:center;
-    color: var(--cor2);
-}
+
 .local-link{
     font-size: 1.4em;
     margin-left: 100px;
+}
+/* mapa  */
+.maps{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.mapa{
+    max-width: 550px;
+    max-height: 365px;
+}
+
+
+img.img-faxada{
+    max-width: 500px;
+    max-height: 450px;
+    border-radius: 10px;
 }

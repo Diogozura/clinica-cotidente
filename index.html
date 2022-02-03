@@ -45,17 +45,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="style/estilo.css">
   <link rel="stylesheet" href="style/nav.css">
   <link rel="stylesheet" href="style/banner.css">
-  <link rel="stylesheet" href="style/clinica.css">
-  <link rel="stylesheet" href="style/local.css">
-  <link rel="stylesheet" href="style/estilo.css">
-  <link rel="stylesheet" href="style/media.css">
-  <link rel="stylesheet" href="style/footer.css">
-  <link rel="stylesheet" href="style/quemSomos.css">
-  <link rel="stylesheet" href="style/video.css">
-
   <link rel="stylesheet" href="style/tratamento.css">
+  <link rel="stylesheet" href="style/clinica.css">
+  <link rel="stylesheet" href="style/video.css">
+  <link rel="stylesheet" href="style/quemSomos.css">
+  <link rel="stylesheet" href="style/local.css">
+  <link rel="stylesheet" href="style/footer.css">
+  <link rel="stylesheet" href="style/media.css">
 
   <title>Clínica Odontologia Cotidente</title>
   <!-- link das fontes -->
@@ -116,7 +115,7 @@
       <div class="nome">
         <img src="img/logoowebp.webp" class="logo-banner" alt="">
         <h1 class="principal">CLÍNICA COTIDENTE</h1>
-        <h2 class="font2">Dra Gesiely Espalva</h2>
+        <h2 class="fonte-dois">Dra Gesiely Espalva</h2>
         <!-- <h3>>SATISFAÇÃO EM CUIDADAR DE PESSOAS.</h3> 
       </div>
 
@@ -138,6 +137,7 @@
       </div>
 
     </section>
+
     <section class=" zap">
       <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998873053"><img
           src="https://img.icons8.com/color/64/000000/whatsapp--v1.png" /></a>
@@ -149,7 +149,7 @@
 
     <!-- Os tipos de Tratamentos -->
     <section id="tratamento">
-      <h2 class="text-center trata ">Tratamentos oferecidos</h2>
+      <h2 class="text-center trata">Tratamentos oferecidos</h2>
       <div class="container">
         <div class="card-carousel">
           
@@ -536,41 +536,18 @@
         </div>
       </div>
 
-
-
-      
-      <div class="sobre-cotidente">
-
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active" >
-              <img src="img/2.PNG" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" >
-              <img src="img/3.PNG" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/4.PNG" class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-
-
-
-        <!-- <h2>Cotidente</h2>
+      <article class="sobre-cotidente">
+        <h2>Cotidente</h2>
         <p>Na Cotidente você encontra os melhores, profissionais, produtos, e equipamentos super modernos, como nosso
           laboratório de prótese que irá proporcionar a você agilidade, conforto e bem estar, fazemos tudo para
           transformar sua ida ao dentista em uma experiência unica, Agende uma consulta e surpreenda-se!</p>
-      </div> -->
+      </article>   
     </section>
+    <article class="depoimento">
+      <img class="imagem-depoimento" src="img/2.PNG" alt="">
+      <img class="imagem-depoimento" src="img/3.PNG" alt="">
+      <img class="imagem-depoimento" src="img/4.PNG" alt="">
+    </article> 
 
     <section class="video-dica">
       <h2 class="titulo-video">Dica Cotidente</h2>
@@ -746,24 +723,8 @@
       </aside>
     </section>
 
-    <section class="final ">
 
-      <aside id="horariodefuncionamento" class="cor-hora hora-tamanho  container-md pt-5">
-        <h3 class="m-0  text-center">Horário de funcionamento</h3>
-        <p class="m-0 hora">De Segunda a sexta das 9:00 às 18:00</p>
-        <p class="hora">Sábado das 9:00 às 14:00</p>
-
-        <!-- <h3 class="text-white">Telefone Para contato</h3>
-        <a href="tel:+55(11) 4321-2423" class="btn telefone btn-primary"><img
-            src="https://img.icons8.com/color/24/000000/phone-message--v1.png" alt="Telefone ">Telefone fixo (11)
-          4321-2423</a>
-        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998873053" class="btn btn-primary"><img
-            src="https://img.icons8.com/color/24/000000/whatsapp--v1.png" alt="whatsapp"> Whatsapp(11) 99887-3053</a> -->
-
-
-        <!-- link do whatsapp da Clinica -->
-
-      </aside>
+   
       <!-- localização  -->
       <section id="local" class="contaienr  cor-local text-center">
 
@@ -796,6 +757,24 @@
 
   <!-- rodapé  -->
   <footer class="cor-footer p-1">
+    <aside id="horariodefuncionamento" class="cor-hora hora-tamanho  container-md pt-5">
+      <h3 class="m-0  horario ">Horário de funcionamento</h3>
+      <p class="m-0 hora">De Segunda a sexta das 9:00 às 18:00</p>
+      <p class="hora">Sábado das 9:00 às 14:00</p>
+
+      <!-- <h3 class="text-white">Telefone Para contato</h3>
+      <a href="tel:+55(11) 4321-2423" class="btn telefone btn-primary"><img
+          src="https://img.icons8.com/color/24/000000/phone-message--v1.png" alt="Telefone ">Telefone fixo (11)
+        4321-2423</a>
+      <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998873053" class="btn btn-primary"><img
+          src="https://img.icons8.com/color/24/000000/whatsapp--v1.png" alt="whatsapp"> Whatsapp(11) 99887-3053</a> -->
+
+
+      <!-- link do whatsapp da Clinica -->
+
+    </aside>
+
+
     <div class=" justify-content-center icon">
       <figure class="d-flex justify-content-center">
         <a href="https://www.instagram.com/cotidente_odontologia/"><img
@@ -809,7 +788,7 @@
     <p class="text-light m-0 text-center">&copy2021 Cotidente </p>
 
   </footer>
-  </section>
+ 
 
 
 
