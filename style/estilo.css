@@ -60,6 +60,7 @@ body{
 
 h1.fonte-titulo{
     font-family: var(--fonte-destaque);
+    color: var(--cor2);
 }
 h2.fonte-dois{
     font-family:var(--fonte-destaque2) ;

@@ -1,25 +1,4 @@
-:root{
-    /* cores  SENSAÇÃO CROMÁTICA   */
-    --colorFont:#1C1C1C;
-    --cor0:#01aad1;
-    --cor1:#0673a1;
-    --cor2:#024d79;
-    --cor3:#626262;
 
-    /* cores Cores secundárias */
-    --cor4:#e8b9a9 ;
-    --cor5:#eb9e82;
-    --cor6:#d48b7a;
-    --cor7:#1b869a;
-    --cor8:#046077;
-    --cor9:#003a46;
-
-    /* fontes */
-    --fonte-padrao: 'Oswald', sans-serif;
-    --fonte-destaque: cursive;
-    --fonte-destaque2: 'Autography', 'The Nautigal', cursive;
-
-}
 
 .banner{
     position: relative;
@@ -46,11 +25,7 @@
     max-height: 700px;
 
 }
-h1.principal{
-    font-family: var(--fonte-destaque);
-    color: var(--cor1);
-   
-}
+
 h2.font2{
     font-family: var(--fonte-destaque2);
     color: var(--colorFont);
