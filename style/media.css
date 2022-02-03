@@ -46,8 +46,9 @@
         padding: 0px;
         object-fit: cover;
     }
-    .img-sobre{
-
+    .imagem-depoimento{
+        width: 350px;
+        
     }
     .img-faxada{
         width: 320px;
