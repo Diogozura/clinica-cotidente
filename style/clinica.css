@@ -29,10 +29,13 @@
 .depoimento{
     background-color: var(--cor4);
     margin-bottom: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .imagem-depoimento{
     object-fit: cover;  
-    width: 450px;
+    width: 480px;
     height: 100%;
     border-radius: 10px;
 }

@@ -13,7 +13,9 @@
     max-width: 550px;
     max-height: 365px;
 }
-
+.cor-local{
+    background-color: var(--cor2);
+}
 
 img.img-faxada{
     max-width: 500px;
