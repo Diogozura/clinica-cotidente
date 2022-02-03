@@ -3,6 +3,7 @@
     margin-bottom: 4em;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .carrosel{ 
     width: 600px;
@@ -18,7 +19,7 @@
     width: 600px;
     background-color: var(--cor2);
     border-radius: 20px;
-
+    height: 100%;
 }
 .img-sobre{
     width: 400px;
