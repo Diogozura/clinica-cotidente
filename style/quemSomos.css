@@ -11,6 +11,10 @@
     background-color: var(--cor2);
     padding-top: 3em;
     padding-bottom: 3em;
+    
+}
+p{
+    text-align: justify;
 }
 .img{
     margin-left: auto;
