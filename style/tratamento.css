@@ -1,6 +1,6 @@
 
 h2.trata{
-    color: var(--cor8);
+    color: var(--cor2);
     font-size: 3em;
 }
   .visuallyhidden {
@@ -48,7 +48,7 @@ h2.trata{
   }
   
   .card-carousel .card {
-    background: var(--cor0);
+    background: var(--cor2);
     width: var(--card-width);
     max-width: var(--card-max-width);
     text-align: center;

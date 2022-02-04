@@ -21,7 +21,7 @@
     border-radius: 20px;
     height: 100%;
     font-size: 1.4em;
-    color: #ffff;
+    color: var(--cor2);
 }
 .img-sobre{
     width: 400px;
