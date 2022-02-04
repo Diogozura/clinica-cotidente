@@ -41,17 +41,22 @@
         height: 100%;
     }
     .sobre-cotidente{
-        height: 200px;
         margin: 0;
         padding: 0px;
         object-fit: cover;
     }
+    .depoimento{
+        margin-top: 0em;
+    }
     .imagem-depoimento{
-        width: 350px;
+        padding-top: 0em;
+        width: 300px;
+        height: 100%;
         
     }
     .sem-foto{
         display: none;
+
     }
     .img-faxada{
         width: 320px;
