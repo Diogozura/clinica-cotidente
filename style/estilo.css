@@ -80,7 +80,4 @@ p.destaque{
     color:var(--cor2);
 }
 
-.final{
-    background-image: linear-gradient(to bottom, hsla(15, 59%, 79%, 0.644),#01aad1);
-}
 

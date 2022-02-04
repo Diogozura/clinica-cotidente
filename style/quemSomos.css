@@ -8,7 +8,7 @@
     align-items: stretch;
     align-content: space-around;
 
-    background-color: var(--cor0);
+    background-color: var(--cor2    );
     padding-top: 3em;
     padding-bottom: 3em;
 }
@@ -47,4 +47,7 @@
     border-radius: 50px;
     padding: 10px;
     margin: 10px;
+}
+h2.quem-somos-fonte{
+    text-align: justify;
 }
