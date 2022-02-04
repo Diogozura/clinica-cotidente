@@ -13,7 +13,8 @@
     padding-bottom: 3em;
 }
 .img{
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 .img-equipe{
     max-width: 500px;

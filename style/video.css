@@ -1,9 +1,8 @@
 h2{
     text-align: center;
+    font-size: 2em  ;
 }
-section.videos{
-  
-}
+
 article.video-dica{
     margin-left: auto;
     margin-right: auto;
@@ -14,6 +13,7 @@ article.video-dica{
   }
   .titulo-video{
     color: var(--cor9);
+    font-size: 3em;
   }
   div.video{
     margin-bottom: 30px;
