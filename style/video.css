@@ -1,10 +1,13 @@
 h2{
     text-align: center;
 }
-section.video-dica{
+section.videos{
+  
+}
+article.video-dica{
     margin-left: auto;
     margin-right: auto;
-    max-width: 650px;
+    max-width: 750px;
     background-color: var(--cor4);
     
     border-radius: 10px;

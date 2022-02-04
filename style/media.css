@@ -50,6 +50,9 @@
         width: 350px;
         
     }
+    .sem-foto{
+        display: none;
+    }
     .img-faxada{
         width: 320px;
         margin-top: 10px;
