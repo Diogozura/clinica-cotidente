@@ -11,10 +11,10 @@
     } */
     .imagem-principal{
         height: 300px;
-        object-fit: contain;
-        object-position: center;
+        object-fit: cover;
+        object-position: 0 10%;
 }
-    }
+    
     .nome{
         width: 350px;
         top: 50%;

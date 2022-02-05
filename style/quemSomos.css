@@ -31,13 +31,17 @@ p{
 .somos{
     color: var(--cor3);
 }
+p.destaque{
+    text-align: justify;
+    padding: 10px;
+}
 .diferencial{
     width: 100%;
     /* background-image: linear-gradient(to top, hsla(15, 59%, 79%, 0.644),#FFFF); */
     display: flex;
     justify-content: space-around;
 
-    margin-bottom: 3em;
+    margin: 3em 0;
 }
 .card-diferencial{
     width: 300px;
