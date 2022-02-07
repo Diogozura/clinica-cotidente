@@ -29,9 +29,7 @@
 
        display: none;
     }
-    .img-consutorio{
-        height: 200px;  
-    }
+   
     .clinica{
         display: flex;
         align-items: center;
@@ -56,6 +54,11 @@
         height: 150px;
         
     }
+    .diferencial{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
     .sem-foto{
         display: none;
 
@@ -78,11 +81,7 @@
     .agendar{
         display: none;
     }
-    .diferencial{
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
+  
     .quem-somos{
         flex-wrap: wrap;
     }

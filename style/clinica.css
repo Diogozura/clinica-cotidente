@@ -35,6 +35,9 @@
     flex-wrap: wrap;
     justify-content: space-around; */
 }
+.depoimento>h2{
+    padding: 10px;
+}
 .imagem-depoimento{
     /* padding-top: 5em; */
     max-width: 400px;
