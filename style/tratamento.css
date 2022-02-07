@@ -76,7 +76,8 @@ h2.trata{
   }
   .botao{
     background-color: var(--cor5);
-    color: floralwhite;
+    color: #174650;
+    font-weight: 600;
   }
   .botao:hover{
     background-color: var(--cor5);
