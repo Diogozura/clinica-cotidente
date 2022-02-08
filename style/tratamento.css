@@ -1,8 +1,9 @@
 
 h2.trata{
     color: var(--cor9);
-    font-size: 3em;
+    font-size: 2.5em;
     padding-top: 0.5em;
+    font-weight: 600;
 }
   .visuallyhidden {
     position: absolute;
@@ -25,8 +26,8 @@ h2.trata{
   }
   
   .card-carousel {
-    --card-width: 80%;
-    --card-max-width: 280px;
+    --card-width: 100%;
+    --card-max-width: 300px;
     --card-height: 350px;
     --carousel-min-width: 600px;
     z-index: 1;
@@ -85,8 +86,8 @@ h2.trata{
   
   
   .image-container {
-    width: 12em;
-    height: 12em;
+    width: 14em;
+    height: 13em;
     position: relative;
     background-size: cover;
     margin-bottom: 1em;
