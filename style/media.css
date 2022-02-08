@@ -10,7 +10,7 @@
         display: none;
     } */
     .imagem-principal{
-        height: 300px;
+        height: 350px;
         object-fit: cover;
         object-position: center;
 }
@@ -51,7 +51,7 @@
     .imagem-depoimento{
         padding-top: 0em;
         width: 300px;
-        height: 150px;
+        height: 100%;
         
     }
     .diferencial{
@@ -93,5 +93,20 @@
     }
     .local-link{
         margin-left: 0;
+    }
+    .titulo-video {
+        font-size: 1.8em;
+    }
+    .titulo-card{
+        font-size: 2em;
+    }
+    .depoimento>h2 {
+        font-size: 2em;
+    }
+    h2.trata{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 2em;
     }
 }
