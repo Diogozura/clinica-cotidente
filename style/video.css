@@ -1,9 +1,10 @@
 h2{
     text-align: center;
-    font-size: 2em  ;
+    font-size: 2.5em  ;
 }
 .titulo-card{
-  font-size: 3em;
+  font-size: 2.5em;
+  margin-top: 0.5em
 }
   .titulo-video{
     color: var(--cor2);
